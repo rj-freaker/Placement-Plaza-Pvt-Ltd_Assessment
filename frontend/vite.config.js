@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/api': "https://placement-plaza-pvt-ltd-assessment.onrender.com"
+      '/api': "http://localhost:3500"
     }
   }
 })
